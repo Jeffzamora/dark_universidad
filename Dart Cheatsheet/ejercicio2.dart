@@ -1,4 +1,4 @@
-//Arrow syntax
+//6-Arrow syntax
 class MyClass {
   // Definir atributos:
   int value1 = 2;
@@ -16,7 +16,7 @@ class MyClass {
 }
 
 
-//Cascades
+//7-Cascades
 class BigObject {
   int anInt = 0;
   String aString = '';
@@ -39,7 +39,7 @@ BigObject fillBigObject(BigObject obj) {
 }
 
 
-//Getters and setters
+//8-Getters and setters
 // Esta clase representa una excepción personalizada para precios inválidos
 class InvalidPriceException {}
 

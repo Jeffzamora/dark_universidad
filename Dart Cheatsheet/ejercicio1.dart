@@ -1,15 +1,15 @@
 main() {
-    //String interpolation
+    //1-String interpolation
     // Declaración de una función llamada "stringify" que toma dos argumentos enteros x e y y devuelve una cadena concatenando ambos valores.
     String stringify(int x, int y) {
         return '$x $y';
     }
 
-    //Nullable variables
+    //2-Nullable variables
     String? name = 'Jane';
     String? address;
 
-    //Null-aware operators
+    //3-Null-aware operators
     // Declaración de una variable de cadena nullable llamada "foo" que tiene el valor "a string".
     String? foo = 'a string';
     // Declaración de una variable de cadena nullable llamada "bar" sin asignarle ningún valor.
@@ -21,14 +21,14 @@ main() {
         bar ??= 'a string';
     }
 
-    //Conditional property access
+    //4-Conditional property access
     // Una función que toma una cadena opcional y devuelve su versión en mayúsculas o null si la cadena es null
     String? upperCaseIt(String? str) {
     return str?.toUpperCase();
     }
 
 
-    //Collection literals
+    //5-Collection literals
     // Declaración de una lista inmutable de cadenas con los valores "a", "b" y "c".
     final aListOfStrings = ['a', 'b', 'c'];
     // Declaración de un conjunto inmutable de enteros con los valores 3, 4 y 5.
