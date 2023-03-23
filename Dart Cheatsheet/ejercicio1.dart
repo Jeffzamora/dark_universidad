@@ -6,9 +6,8 @@ main() {
 
     // Declaración de una variable de cadena nullable llamada "foo" que tiene el valor "a string".
     String? foo = 'a string';
-    
     // Declaración de una variable de cadena nullable llamada "bar" sin asignarle ningún valor.
-    String? bar; 
+    String? bar;
 
     // Declaración de una variable de cadena nullable llamada "baz" que tiene el valor de "foo" si no es nulo, de lo contrario tiene el valor de "bar".
     String? baz = foo ?? bar;
